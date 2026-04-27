@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8624997189:AAHFKH3vAO3l2jlsc_MvTCah3lIlR0r3nEI")
 app = ApplicationBuilder().token(BOT_TOKEN).build()
 bad_words = {
     "idiot", "fool", "dumb", "stupid", "moron", "loser", "nonsense", "shut up",
